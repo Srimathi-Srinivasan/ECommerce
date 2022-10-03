@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerceapi", "ecommerceapi.csproj", "{A7A403AB-2687-46DA-BDE8-D6A2E22B971A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "..\Core\Core.csproj", "{49510870-3F23-4E1E-87E2-8E32F981E90F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{65D1AC1D-3EE5-45DE-A84A-412BE8852F3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7A403AB-2687-46DA-BDE8-D6A2E22B971A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A403AB-2687-46DA-BDE8-D6A2E22B971A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A403AB-2687-46DA-BDE8-D6A2E22B971A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A403AB-2687-46DA-BDE8-D6A2E22B971A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49510870-3F23-4E1E-87E2-8E32F981E90F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49510870-3F23-4E1E-87E2-8E32F981E90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49510870-3F23-4E1E-87E2-8E32F981E90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49510870-3F23-4E1E-87E2-8E32F981E90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D1AC1D-3EE5-45DE-A84A-412BE8852F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D1AC1D-3EE5-45DE-A84A-412BE8852F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D1AC1D-3EE5-45DE-A84A-412BE8852F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D1AC1D-3EE5-45DE-A84A-412BE8852F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83DB320F-D52B-4E9F-B3D9-E0032DC6B58A}
+	EndGlobalSection
+EndGlobal
